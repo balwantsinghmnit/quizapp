@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#heading
+{
+	margin-top: 50px;
+	font-size: 80px;
+	font-family: serif;
+	text-shadow: 35px 25px 5px lightgrey;
+}
+
+.btnquiz
+{
+	width: 200px;
+	height: 200px;
+	font-size: 50px;
+	margin:50px;
+	cursor: pointer;
+	border:5px solid green;
+}
+
+.btnquiz:hover
+{
+	border: 5px solid blue;
+	background:purple;
+}
+
+.card-width
+{
+	width: 50%;
+}
+.card-body button
+{
+	display: block;
+	width: 90%;
+	margin-top: 10px;
+	border: none;
+	padding: 5px;
+}
+
+.green
+{
+	background: green;
+	color:white;
+}
+
+.red
+{
+	background: red;
+	color:white;
+}
+
+.nextbtn
+{
+	width: 100px;
+	height: 40px;
+	color: white;
+	background: black;
+	border:none;
+	cursor: pointer;
+	margin-top: 50px;
+}
+
+.submitbtn
+{
+	width: 150px;
+	height: 50px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+@media(max-width: 767px)
+{
+	.card-width
+	{
+		width: 80%;
+	}
+}
